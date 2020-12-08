@@ -10,9 +10,9 @@ Some applications don't work correctly with security-constraint and want to push
 Located in apache-tomcat > conf > server.xml
 
 
-`<Connector URIEncoding="UTF-8" port="80" acceptCount="100" enableLookups="false" maxThreads="150" redirectPort="443" />`
+```<Connector URIEncoding="UTF-8" port="80" acceptCount="100" enableLookups="false" maxThreads="150" redirectPort="443" />```
 
-`<Connector port="443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+```<Connector port="443" protocol="org.apache.coyote.http11.Http11NioProtocol"
                maxThreads="150" SSLEnabled="true">
         <UpgradeProtocol className="org.apache.coyote.http2.Http2Protocol" />
         <SSLHostConfig>
@@ -21,7 +21,7 @@ Located in apache-tomcat > conf > server.xml
                          certificateChainFile="/usr/local/xxx/xxx.crt"
                          type="RSA" />
         </SSLHostConfig>
-</Connector>`
+</Connector>```
 
 Add the following element into <Host name="localhost" ...> at last
 
