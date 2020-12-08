@@ -1,5 +1,5 @@
 # SSL-ApacheTomcat
-Some applications don't work correctly with security-constraint and want to push Http to Https This include simply bit different way to complete Http to Https Issue
+ome applications don't work correctly with security-constraint and have to force push Http to Https requests This include simply bit different way to complete Http to Https Issue
 
 **Generate your SSL Cetificates**
 
