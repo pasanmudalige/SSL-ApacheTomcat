@@ -46,7 +46,7 @@ This should be placed at the very end of the file near and above the ending `</w
  </security-constraint>
 
 
-===================Try restarting Apache-tomcat server=============================
+======Try restarting Apache-tomcat server========
 
 Some applications don't work correctly with that security-constraint, so I followed a completely different approach:(It's Working on apache-tomcat 9)
 
@@ -54,7 +54,7 @@ Some applications don't work correctly with that security-constraint, so I follo
 Sample is attached with this
 
 
-============Try restarting Apache-tomcat server again It should work ====================
+======Try restarting Apache-tomcat server again It should work ======
 
 ===================GOOD LUCK=================
 
