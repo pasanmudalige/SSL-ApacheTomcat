@@ -27,7 +27,7 @@ Add the following element into <Host name="localhost" ...> at last
 
 <Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />
 
-4) Edit you web.xml File 
+4)Edit you web.xml File 
 Located in apache-tomcat > conf > web.xml
 
 To force Tomcat to redirect and revert all requested HTTP traffic over to HTTPS, configure the `conf/web.xml` file with the below block. 
@@ -50,7 +50,7 @@ This should be placed at the very end of the file near and above the ending `</w
 
 Some applications don't work correctly with that security-constraint, so I followed a completely different approach:(It's Working on apache-tomcat 9)
 
-5) Create the file conf/Catalina/localhost/rewrite.config 
+5)Create the file conf/Catalina/localhost/rewrite.config 
 Sample is attached with this
 
 
