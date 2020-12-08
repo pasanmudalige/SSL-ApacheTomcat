@@ -12,7 +12,6 @@ Located in apache-tomcat > conf > server.xml
 <Connector URIEncoding="UTF-8" port="80" acceptCount="100" enableLookups="false" maxThreads="150" redirectPort="443" />
 
 <Connector port="443" protocol="org.apache.coyote.http11.Http11NioProtocol"
-
                maxThreads="150" SSLEnabled="true">
         <UpgradeProtocol className="org.apache.coyote.http2.Http2Protocol" />
         <SSLHostConfig>
@@ -33,6 +32,7 @@ Located in apache-tomcat > conf > web.xml
 
 To force Tomcat to redirect and revert all requested HTTP traffic over to HTTPS, configure the `conf/web.xml` file with the below block. 
 This should be placed at the very end of the file near and above the ending `</webapp>` tag:
+
 
  <security-constraint>
 	<web-resource-collection>
