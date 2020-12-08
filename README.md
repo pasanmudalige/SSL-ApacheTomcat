@@ -1,7 +1,7 @@
 # SSL-ApacheTomcat
 Some applications don't work correctly with security-constraint and want to push Http to Https This include simply bit different way to complete Http to Https Issue
 
-1) Generate your SSL Cetificates
+1)Generate your SSL Cetificates
 
 2)Copy these files in to secured path in the server
 
